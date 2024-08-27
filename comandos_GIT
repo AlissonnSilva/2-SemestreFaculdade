@@ -1,0 +1,25 @@
+cd .. 			// volta um diretório
+cd 'nomedir' 	// avanca para um diretorio
+mkdir pasta 	// Cria um diretório chamado pasta
+mv *.py pasta 	// move TODOS os arquivos .py para a pasta chamada pasta
+copy *.py pasta // copia TODOS os arquivos .py para a pasta chamada pasta
+help 			// no promt de comando, lista os comandos disponíveis
+help comando 	// exibe as opções do comando desejado
+cat arquivo 	// Abre o arquivo em modo read-only
+touch arquivos	// Cria um arquivo (Linux, MAC)
+code . 			// para abrir o diretório atual com o visual code studio
+ni arquivo 		// Cria um arquivo no PowerShell
+rm arquivo 		// Deleta arquivo
+del arquivo 	// Deleta arquivo
+explorer.exe .	// Abre o explorador de arquivo no local (Windows)
+
+
+VIM
+
+:q 				// sai do vim
+:w 				// salva o arquivo
+:wq 			// salva e sai do arquivo
+:i 				// entra no modo de insercao, para sair, apertar ESC
+:a 				// entra no modo de inserscao na posicao a frente do cursor
+:u 				// desfaz a alteracao
+/nome 			// pesquisa nome no arquivo
